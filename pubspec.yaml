@@ -1,0 +1,47 @@
+name: teste
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.7.2+1
+  paging: 0.1.0
+  http:
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "images/app-icon.png"
+  image_path_ios: "images/app-icon.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: GetSchwifty
+      fonts:
+        - asset: fonts/get_schwifty.ttf
+
+    - family: Dongle
+      fonts:
+        - asset: fonts/Dongle-Regular.ttf
+
+    - family: FredokaOne
+      fonts:
+        - asset: fonts/FredokaOne-Regular.ttf
