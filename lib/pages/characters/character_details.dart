@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:teste/components/status_circle.dart';
 import 'package:teste/components/status_row.dart';
 import 'package:teste/model/character_model.dart';
 import 'package:teste/components/table_row.dart';

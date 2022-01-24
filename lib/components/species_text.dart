@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:teste/model/character_model.dart';
 import 'package:teste/utils/conts.dart';
 
 class SpeciesText extends StatelessWidget {
